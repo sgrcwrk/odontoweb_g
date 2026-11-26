@@ -145,26 +145,26 @@
 <div class="min-h-[1024px] flex flex-col" data-stitch-vh="min-h-[1024px]===min-h-screen">
 <!-- 1. Barra superior delgada -->
 <div class="bg-primary-dark text-on-primary-dark">
-<div class="max-w-[1200px] mx-auto px-gutter-lg py-2 flex flex-wrap items-center justify-between gap-4">
-<div class="flex items-center gap-2">
+<div class="w-full px-4 sm:px-gutter-lg py-2 flex items-center justify-between gap-3">
+<div class="flex items-center gap-1.5 sm:gap-2 mr-auto">
 <span aria-hidden="true" class="material-symbols-outlined text-body-md">location_on</span>
-<span class="font-body text-body-sm">Calle 00 # 00-00</span>
+<span class="font-body text-label-sm sm:text-body-sm whitespace-nowrap">Calle 00 # 00-00</span>
 </div>
-<div class="flex items-center gap-6">
+<div class="flex items-center gap-3 sm:gap-6 ml-auto shrink-0">
 <a class="inline-flex items-center gap-1.5 hover:opacity-90 transition-opacity duration-state-change" href="tel:+57xxxxxxxxx">
 <span aria-hidden="true" class="material-symbols-outlined text-body-md">call</span>
-<span class="font-body text-body-sm tabular-nums">+57 xxx xxx xxx</span>
+<span class="font-body text-label-sm sm:text-body-sm tabular-nums whitespace-nowrap">+57 xxx xxx xxx</span>
 </a>
-<a class="inline-flex items-center gap-1.5 hover:opacity-90 transition-opacity duration-state-change" href="#contacto">
+<a aria-label="WhatsApp" class="inline-flex items-center gap-1.5 hover:opacity-90 transition-opacity duration-state-change" href="#contacto">
 <span aria-hidden="true" class="material-symbols-outlined text-body-md">chat</span>
-<span class="font-body text-body-sm tabular-nums">WhatsApp: +57 xxx xxx xxx</span>
+<span class="hidden sm:inline font-body text-body-sm tabular-nums whitespace-nowrap">WhatsApp: +57 xxx xxx xxx</span>
 </a>
 </div>
 </div>
 </div>
 <!-- 2. Navbar -->
 <header class="sticky top-0 z-40 bg-surface border-b border-outline-variant shadow-sm">
-<div class="max-w-[1200px] mx-auto px-gutter-lg py-3.5 flex items-center justify-between gap-4">
+<div class="w-full px-4 sm:px-gutter-lg py-3.5 flex items-center justify-between gap-3">
 <!-- Logo de diente a la izquierda -->
 <a class="flex items-center gap-2.5 shrink-0" href="#inicio">
 <span class="w-10 h-10 rounded-md bg-primary-soft text-primary flex items-center justify-center">
@@ -187,8 +187,8 @@
 <a class="font-label text-label-md text-on-surface hover:text-primary transition-colors duration-state-change whitespace-nowrap" href="#contacto">Contacto</a>
 </nav>
 <!-- Botón primario a la derecha -->
-<a class="inline-flex items-center justify-center gap-2 bg-primary text-on-primary hover:bg-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 px-6 py-3 rounded-full shadow-sm transition-colors duration-state-change ease-state-change shrink-0 whitespace-nowrap" data-component-id="button-primary" data-component-type="button" data-component-variant="primary" href="#contacto">
-<span class="font-label text-label-lg" data-design-text-token="label-lg">Reserva tu cita</span>
+<a class="inline-flex items-center justify-center gap-2 bg-primary text-on-primary hover:bg-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 px-4 py-2.5 sm:px-6 sm:py-3 rounded-full shadow-sm transition-colors duration-state-change ease-state-change shrink-0 whitespace-nowrap" data-component-id="button-primary" data-component-type="button" data-component-variant="primary" href="#contacto">
+<span class="font-label text-label-md sm:text-label-lg" data-design-text-token="label-lg">Reserva tu cita</span>
 </a>
 </div>
 </header>
